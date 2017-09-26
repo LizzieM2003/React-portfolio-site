@@ -1,0 +1,17 @@
+.skill__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: $s-size;
+    width: 40%;
+
+    @media (min-width: $desktop-breakpoint) {
+        width: 22%;
+    }
+}
+
+.skill__image {
+    height: 10rem;
+    width: 10rem;
+}

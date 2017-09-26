@@ -1,0 +1,34 @@
+.blurb__title {
+  font-size: $title-size;
+  font-weight: 300;
+  text-align: center;
+  margin: $lg-size auto;
+
+  @media (min-width: $desktop-breakpoint) {
+    width: 70%;
+  }
+}
+
+.blurb__subtitle {
+  @extend .blurb__title;
+  font-size: $subtitle-size;
+  margin: $lg-size auto $s-size auto;
+  // text-align: start;
+}
+
+.blurb__content {
+  width: 90%;
+  line-height: 1.45;
+  margin: $med-size auto;
+
+  @media (min-width: $desktop-breakpoint) {
+    width: 70%;
+    font-size: $p-size;
+  }
+}
+
+.blurb__link {
+  font-weight: 700;
+  text-decoration: none;
+  color: $font-color;
+}
