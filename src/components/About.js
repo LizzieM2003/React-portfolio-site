@@ -6,7 +6,7 @@ const About = () => (
     <h1 className="blurb__title">About Liz Mendes</h1>
 
     <p className="blurb__content">
-      An experienced software professional with approximately 15 years
+      An experienced software professional with approximately 16 years
       experience of designing, developing and maintaining Oracle SQL database
       applications, seeking a first professional role as a front-end or full
       stack web developer. I have a passion for web development, so I took a
